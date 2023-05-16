@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Projeto Duplo Fator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="shortcut icon" href="img/Icone.png" />
+  </head>
+<body>
+  <div id="register-container">
+      <div id="register-banner">
+        <div id="banner-layer">
+          <h1>Duplo Fator Autenticação OTP</h1>
+        </div>
+      </div>      
+
+    <form action="Confirmacao.php" method="POST">
+      <div id="register-form">
+        <h2>Segurança em Sistemas para Internet</h2>
+          <p>Entre com as credenciais de acesso para a autenticação.</p>
+      <div class="form-control">
+        <label for="email">E-mail</label>
+          <input type="email" id="email" pattern="projetotpauth@isg018.com" name="email" required placeholder="Informe o e-mail de autenticação..." />
+      </div>
+
+      <div class="form-control">
+        <label for="password">Senha</label>
+          <input type="password" id="password" pattern="12345" name="senha" required placeholder="Informe a senha de autenticação..." />
+      </div>  
+      <input type="submit" value="Entrar" />
+    </form>        
+
+    <div id="instrucoes">
+      <div id="instrucoes-titulo">INSTRUÇÕES DE USO</div>
+      <div id="instrucoes-fator1">E-mail:</div>
+      <div id="instrucoes-email">projetotpauth@isg018.com</div>
+      <div id="instrucoes-fator2">Senha:</div>
+      <div id="instrucoes-senha">12345</div>
+    </div>
+  </div> 
+</body>
+
+</html>

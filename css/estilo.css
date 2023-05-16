@@ -1,0 +1,277 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+html {
+  /*background: linear-gradient(180deg, #ea03ff 0%, #0097ff 100%);*/
+  background: url("../img/PDF2.jpg");
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+input:focus {
+  outline: none;
+}
+
+#register-container {
+  max-width: 900px;
+  min-height: 80vh;
+  margin: 2rem auto;
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#register-banner {
+  background: url("../img/PapelParedeSSI3.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+#banner-layer {
+  background-color: rgba(0,16,39, 0.7);
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+#register-banner h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+form{
+  background-color: #fdfdfd;
+  padding: 2rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+form h2{
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+form p{
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #aaa;
+  font-size: 0.8rem;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.form-control input {
+  border: none;
+  border-bottom: 1px solid #aaa;
+  padding: 0.6rem 0;
+}
+
+input[type="submit"],
+#generate-options button{
+  background-color: #001b46;
+  color: #fff;
+  opacity: 0.9;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 1.4rem;
+  max-width: 150px;
+  cursor: pointer;
+  align-self: flex-end;
+  transition: 0.4s;
+  float: right;
+  margin-right: 35%;
+}
+
+#register-form input[type="submit"]:hover {
+  opacity: 1;
+}
+
+#instrucoes{
+  background-color: #ccc; 
+  height: 70px; 
+  width: 250px;
+  border-radius: 5px;
+  margin-left: 80px;
+  margin-top: 110px;
+}
+
+#instrucoes-titulo{
+  color: #a03587;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#instrucoes-fator1{
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+#instrucoes-fator2{
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+#instrucoes-email{
+  font-size: 13px;
+  color: blue;
+  font-style: italic;
+  float: right;
+  margin-top: -16px;
+  margin-right: 15px;
+
+}
+
+#instrucoes-senha{
+  font-size: 13px;
+  color: blue;
+  font-style: italic;
+  float: right;
+  margin-top: -16px;
+  margin-right: 160px;  
+}
+
+.btnAutenticar{
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 8px;
+  /*border-color: rgba(25, 11, 122, 0.7);*/
+  border-color: rgba(25, 11, 122, 0.5);
+  /*background-color:rgba(25, 11, 122, 0.7);*/
+  background-color: #001b46;
+  cursor: pointer;
+  color:#fff;
+}
+
+.btnAutenticar:hover{
+  background-color:rgba(25, 41, 122, 1.2);  
+}
+
+.txtCodigo{
+  font-size: 17px;
+  width: 200px;
+  height: 60px;
+  border-radius: 15px;
+  text-align: center;
+  display: inline;
+  color: #001b46;
+  /*border-color: rgba(25, 11, 122, 0.5);*/
+  border-color: #001b46;
+}
+
+#email::placeholder{
+  color: #ccc;
+}
+
+#password::placeholder{
+  color: #ccc;
+}
+
+input::placeholder{
+  color: rgba(25, 11, 122, 0.7);  
+}
+
+
+.AutenticacaoConcluida{
+  background: linear-gradient();
+  /*background: linear-gradient(180deg, #ea03ff 0%, #0097ff 100%);*/
+}
+
+
+.CodigoInvalido{
+  color: red;
+  font-weight: bold;
+}
+
+/*
+
+.MsgAutenticacaoExito{
+  text-align: center;
+  font-weight: bold;
+  font-size: 29px;
+  background-color: transparent;
+  /*color: #fff;*/
+  /*padding-top: 300px;}*/
+
+  /*
+.ImgConcluida{
+  height: 350px;
+  width: 350px;
+  /*margin-left: -500px;*/
+  /*position: absolute;
+  top: 200px;
+  /*margin: 0 auto;*/
+  /*display: block;*/
+  /*max-width: 100%;*/
+  /*width: 60%;*/
+  /*margin: auto;*/
+  /*left: 560px;
+}
+
+.PosicaoConcluida{
+  margin-top: 80px;
+}
+*/
+
+/*
+.ImgConcluida{
+  height: 150px;
+  width: 150px;
+  margin-left: 580px;
+  position: absolute;
+  top: 200px;
+}
+
+/*
+.PosicaoConcluida{
+  margin-top: 80px;
+}
+*/
+/*
+.MsgAutenticacaoExito{
+  text-align: center;
+  font-weight: bold;
+  font-size: 29px;
+  color: #fff;
+  padding-top: 300px;
+}
+
+.ImgConcluida{
+  height: 150px;
+  width: 150px;
+  margin-left: 580px;
+  position: relative;
+  top: 200px;
+}
+
+.PosicaoConcluida{
+  margin-top: 80px;
+}*/
